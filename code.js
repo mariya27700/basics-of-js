@@ -11,9 +11,10 @@ let num2=8;
 console.log(`The sum of ${num1} and ${num2} is ${num1+num2}`);
 
 //3.Area of a rectangle
-let length=prompt('Enter the length:');
-let width=prompt('Enter the width: ');
-console.log(`The area of the rectangle is ${length*width}`);
+let length = Number(prompt('Enter the length:'));
+let width = Number(prompt('Enter the width:'));
+console.log(`The area of the rectangle is ${length * width}`);
+
 
 //4.About a movie.Variables for movieName, yearReleased, and rating.Print in one sentence using template literals.
 let movieName='P';
